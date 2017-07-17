@@ -1,7 +1,9 @@
-# 4xx: Client Error
+
+# HTTP Status Messages
+### 4xx: Client Error
 
 Message: | Description:
------------- | -------------
+----------------- | ------------------
 400 Bad Request | The request cannot be fulfilled due to bad syntax
 401 Unauthorized | The request was a legal request, but the server is refusing to respond to it. For use when authentication is possible but has failed or not yet been provided
 402 Payment Required | Reserved for future use
@@ -21,10 +23,10 @@ Message: | Description:
 416 Requested Range Not Satisfiable | The client has asked for a portion of the file, but the server cannot supply that portion
 417 Expectation Failed | The server cannot meet the requirements of the Expect request-header field
 
-# 5xx: Server Error
+### 5xx: Server Error
 
 Message: | Description:
------------- | -------------
+----------------- | ------------------
 500 Internal Server Error | A generic error message, given when no more specific message is suitable
 501 Not Implemented | The server either does not recognize the request method, or it lacks the ability to fulfill the request
 502 Bad Gateway | The server was acting as a gateway or proxy and received an invalid response from the upstream server
