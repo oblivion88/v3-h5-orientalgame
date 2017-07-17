@@ -18,30 +18,30 @@ NOTIFY_2 | Connection Failed, Reconnecting!
 NOTIFY_3 | You Have Not Bet For 3 Times, 2 More And You'll Be Redirected To Lobby
 NOTIFY_4 | Waiting For Connection...
 
+
 ### xxx: Login Response
 Message: | Description:
 ----------------- | ------------------
-LOGIN_RESULT_0 | Login Successful
-LOGIN_RESULT_1 | Invalid Bet
-LOGIN_RESULT_2 | Not In Bet Time
-LOGIN_RESULT_3 | Not A Member
-LOGIN_RESULT_4 | Insuffcient Fund
-LOGIN_RESULT_5 | Cannot Bet
-LOGIN_RESULT_6 | Bet Exceeds Limit
-LOGIN_RESULT_7 | Bet Is Over Maximum Limit
-LOGIN_RESULT_8 | Bet Is Over Minimum Limit
+LOGIN_RESULT_0 | Bet Successful
+LOGIN_RESULT_1 | Invalid Ticket
+LOGIN_RESULT_2 | Account Does Not Exist
+LOGIN_RESULT_3 | Incorrect Username Or Password 
+LOGIN_RESULT_4 | Account Is Locked
+LOGIN_RESULT_5 | Acocunt Already Login
+LOGIN_RESULT_6 | Login Failed
 
 ### xxx: Bet Response
 Message: | Description:
 ----------------- | ------------------
-BET_RESULT_0 | Bet Successful
-BET_RESULT_1 | Invalid Ticket
-BET_RESULT_2 | Account Does Not Exist
-BET_RESULT_3 | Incorrect Username Or Password 
-BET_RESULT_4 | Account Is Locked
-BET_RESULT_5 | Acocunt Already Login
-BET_RESULT_6 | Login Failed
-
+BET_RESULT_0 | Login Successful
+BET_RESULT_1 | Invalid Bet
+BET_RESULT_2 | Not In Bet Time
+BET_RESULT_3 | Not A Member
+BET_RESULT_4 | Insuffcient Fund
+BET_RESULT_5 | Cannot Bet
+BET_RESULT_6 | Bet Exceeds Limit
+BET_RESULT_7 | Bet Is Over Maximum Limit
+BET_RESULT_8 | Bet Is Over Minimum Limit
 
 # HTTP Status Messages
 ### 4xx: Client Error
