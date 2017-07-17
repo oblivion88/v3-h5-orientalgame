@@ -1,3 +1,29 @@
+# Game Error And Messages
+
+### Login Response
+Message: | Description:
+----------------- | ------------------
+LOGIN_RESULT_0 | Login Successful
+LOGIN_RESULT_1 | Invalid Bet
+LOGIN_RESULT_2 | Not In Bet Time
+LOGIN_RESULT_3 | Not A Member
+LOGIN_RESULT_4 | Insuffcient Fund
+LOGIN_RESULT_5 | Cannot Bet
+LOGIN_RESULT_6 | Bet Exceeds Limit
+LOGIN_RESULT_7 | Bet Is Over Maximum Limit
+LOGIN_RESULT_8 | Bet Is Over Minimum Limit
+
+### Bet Response
+Message: | Description:
+----------------- | ------------------
+BET_RESULT_0 | Bet Successful
+BET_RESULT_1 | Invalid Ticket
+BET_RESULT_2 | Account Does Not Exist
+BET_RESULT_3 | Incorrect Username Or Password 
+BET_RESULT_4 | Account Is Locked
+BET_RESULT_5 | Acocunt Already Login
+BET_RESULT_6 | Login Failed
+
 
 # HTTP Status Messages
 ### 4xx: Client Error
