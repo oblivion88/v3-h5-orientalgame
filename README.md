@@ -1,6 +1,24 @@
 # Game Error And Messages
 
-### Login Response
+### xxx: Loading Messages
+Message: | Description:
+----------------- | ------------------
+LOADING_0 | Downloading Lobby Contents
+LOADING_1 | Downloading Game Contents
+LOADING_2 | Downloading Graphics Contents
+LOADING_3 | Downloading Sounds Contents
+LOADING_4 | Preparing Game
+LOADING_5 | Loading Enviroment
+
+### xxx: Notification
+Message: | Description:
+----------------- | ------------------
+NOTIFY_1 | Account Is Used Or Already Login, Force Exit
+NOTIFY_2 | Connection Failed, Reconnecting!
+NOTIFY_3 | You Have Not Bet For 3 Times, 2 More And You'll Be Redirected To Lobby
+NOTIFY_4 | Waiting For Connection...
+
+### xxx: Login Response
 Message: | Description:
 ----------------- | ------------------
 LOGIN_RESULT_0 | Login Successful
@@ -13,7 +31,7 @@ LOGIN_RESULT_6 | Bet Exceeds Limit
 LOGIN_RESULT_7 | Bet Is Over Maximum Limit
 LOGIN_RESULT_8 | Bet Is Over Minimum Limit
 
-### Bet Response
+### xxx: Bet Response
 Message: | Description:
 ----------------- | ------------------
 BET_RESULT_0 | Bet Successful
